@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <h3 className="text-xl">Created with 💗 by <a href="https://www.piotrmaciejewski.com" target="_blank"><span className="font-semibold">Piotr.</span></a> All rights reserved.</h3>
+                <h3 className="text-xl">Created with 💗 by <a href="https://www.piotrmaciejewski.com" target="_blank" rel="noreferrer"><span className="font-semibold">Piotr.</span></a> All rights reserved.</h3>
             </div>
            
         </div>
