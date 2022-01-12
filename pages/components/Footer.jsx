@@ -3,8 +3,8 @@ import React from 'react'
 const Footer = () => {
     return (
         <div className="bg-green-500 p-10 flex flex-col items-center text-white justify-center">
-            <div className="w-[80%] lg:flex justify-between">
-                <div className="">
+            <div className="lg:w-[80%] w-[90%] lg:flex justify-between">
+                <div className="mb-10">
                     <h2 className="text-2xl uppercase font-semibold mb-2">Working Hours:</h2>
                     <p className="text-xl">Mon - Fri: 12:00 - 23:00</p>
                     <p className="text-xl">Sat - Sun: 12:00 - 24:00</p>
@@ -36,7 +36,7 @@ const Footer = () => {
                 </div>
             </div>
             <div>
-                <h3 className="text-xl">Created with 💗 by <a href="https://www.piotrmaciejewski.com" target="_blank" rel="noreferrer"><span className="font-semibold">Piotr.</span></a> All rights reserved.</h3>
+                <h3 className="text-xl text-center">Created with 💗 by <a href="https://www.piotrmaciejewski.com" target="_blank" rel="noreferrer"><span className="font-semibold">Piotr.</span></a> All rights reserved.</h3>
             </div>
            
         </div>
